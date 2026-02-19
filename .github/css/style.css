@@ -1,0 +1,66 @@
+.section-space {
+    padding: 60px 0;
+}
+
+a {
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: blue;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212529;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #343a40;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #495057;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.card {
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.carousel img {
+    height: 300px;
+    object-fit: cover;
+}
+
+p {
+    margin-bottom: 12px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul,
+ol {
+    padding-left: 1.2rem;
+}
+
+.badge {
+    padding: 0.6em 0.8em;
+    border-radius: 999px;
+    font-weight: 600;
+}
