@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Evan Fretheim</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#home">My Site</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutme">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#schedule">Schedule</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- == HOME == -->
+    <main>
+        <section id="home" class="section-space">
+            <div class="container">
+                <h1 class="mb-3">Home</h1>
+
+                <div class="row align-items-center g-4">
+                    <div class="col-12 col-lg-5 text-center">
+                        <img src="images/me.jpg" alt="me" class="img-fluid rounded shadow-sm" />
+                    </div>
+
+                    <div class="col-12 col-lg-7">
+                        <p class="lead mb-3">
+                            Hello! My name is Evan Fretheim. I am a student at North Dakota State University pursuing a
+                            bachelor's
+                            degree in Computer Science.
+                        </p>
+
+                        <p class="mb-4">
+                            I have some experience with HTML, CSS, C++, Python, and Java. This site is a simple
+                            portfolio to show my
+                            skills, projects, and interests.
+                        </p>
+
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="h6 mb-3">Quick Info</h2>
+
+                                <address class="mb-3">
+                                    123 fake address st. N <br />
+                                    Fake city, ND, 58102<br />
+                                    Phone: (701) 123-4567<br />
+                                </address>
+
+                                <h2 class="h6 mb-2">Favorite Sites</h2>
+                                <ul class="mb-3">
+                                    <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+                                    <li><a href="https://www.github.com" target="_blank">GitHub</a></li>
+                                    <li><a href="https://www.twitch.tv" target="_blank">Twitch</a></li>
+                                </ul>
+
+                                <div class="d-flex flex-wrap gap-2">
+                                    <a class="btn btn-primary" href="#portfolio">View Projects</a>
+                                    <a class="btn btn-outline-primary" href="#contact">Contact Me</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- == ABOUT ME == -->
+        <section id="aboutme" class="section-space">
+            <div class="container">
+                <h1>About Me</h1>
+
+                <div class="row g-4">
+                    <div class="col-12 col-lg-8">
+                        <article>
+                            <p>
+                                I am from a small town in North Dakota that does not need to be disclosed, but I have
+                                been in North
+                                Dakota my whole life.
+                                I have been at NDSU since fall of 2024, and I've had an interest in computers ever since
+                                I could
+                                remember.
+                                When I was four years old, my dad got me set up on a PlayStation 2, and I was hooked. I
+                                have been
+                                playing video games ever since,
+                                and that interest has evolved into an interest in programming and computer science.
+                            </p>
+
+                            <p class="mb-0">
+                                Interests and hobbies include gaming, programming, music, movies, and more.
+                            </p>
+                        </article>
+
+                        <h2 class="h5 mt-4">Interests</h2>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="badge bg-primary">Gaming</span>
+                            <span class="badge bg-success">Programming</span>
+                            <span class="badge bg-warning text-dark">Music</span>
+                            <span class="badge bg-info text-dark">Movies</span>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h2 class="h6 mb-3">Hobbies</h2>
+                                <ol class="mb-0">
+                                    <li>Gaming</li>
+                                    <li>Programming</li>
+                                    <li>Music</li>
+                                    <li>Movies</li>
+                                </ol>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="h6 mb-3">Favorite Movies / Books</h2>
+                                <ul class="mb-0">
+                                    <li>Movie: Interstellar</li>
+                                    <li>Book: Dune</li>
+                                    <li>Book: The Hobbit</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- == Carousel == -->
+                <h2>Interests</h2>
+                <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/esports.png" class="d-block w-100" alt="Gaming">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Gaming</h5>
+                                <p>This was me at a Esports event for NDSU.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/programming.avif" class="d-block w-100" alt="Programming">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Programming</h5>
+                                <p>I also enjoy programming and learning new languages.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/music.jpg" class="d-block w-100" alt="Music">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 style="color: darkblue">Music</h5>
+                                <p style="color: darkblue">Music is another one of my interests.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <h2 class="h5 mt-4">Vsauce, Michael here!</h2>
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/s86-Z-CbaHA" title="The Banach–Tarski Paradox"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- == PORTFOLIO == -->
+        <section id="portfolio" class="section-space">
+            <div class="container">
+                <h1>Portfolio / Projects</h1>
+                <div class="row g-3">
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <img src="images/pacman.jpg" class="card-img-top" alt="Project 1"
+                                style="height: 200px; object-fit: cover;">
+                            <div class="card-body">
+                                <h2 class="h5 card-title">Project 1</h2>
+                                <p class="card-text">I made a small unfinished version of pacman in unity.</p>
+                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#projectModal">
+                                    More Info
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <img src="images/medival.jpg" class="card-img-top" alt="Project 2"
+                                style="height: 200px; object-fit: cover;">
+                            <div class="card-body">
+                                <h2 class="h5 card-title">Project 2</h2>
+                                <p class="card-text">I made a small medieval game using unreal engine.</p>
+                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#projectModal">
+                                    More Info
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <img src="images/solar.jpg" class="card-img-top" alt="Project 3"
+                                style="height: 200px; object-fit: cover;">
+                            <div class="card-body">
+                                <h2 class="h5 card-title">Project 3</h2>
+                                <p class="card-text">I made a small solar system simulation in unity.</p>
+                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#projectModal">
+                                    More Info
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- == SCHEDULE == -->
+        <section id="schedule" class="section-space">
+            <div class="container">
+                <h1>Schedule</h1>
+                <p>My schedule is as follows:</p>
+                <table class="table table-bordered">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Day</th>
+                            <th>Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday</td>
+                            <td class="table-primary">Class 10:00 AM - 12:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td class="table-warning">Work 5:00 AM - 9:00 AM, Class 12:30 PM - 3:15 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td class="table-warning">Work 5:00 AM - 9:00 AM, Class 10:00 AM - 12:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Thursday</td>
+                            <td class="table-primary">Class 12:30 PM - 3:15 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td class="table-warning">Work 5:00 AM - 9:00 AM, Class 10:00 AM - 12:00 PM</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </section>
+
+        <!-- == CONTACT == -->
+        <section id="contact" class="section-space">
+            <div class="container">
+                <h1>Contact</h1>
+
+                <div class="alert alert-info">
+                    Fill out the form below to contact me!
+                </div>
+
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" class="form-control" rows="4" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+
+            </div>
+        </section>
+    </main>
+
+    <div class="modal fade" id="projectModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Project Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    I made these projects in a programming bootcamp that I attended before college.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <footer class="bg-dark text-light text-center py-3 mt-4">
+        © 2026 Evan Fretheim
+    </footer>
+</body>
+
+</html>
